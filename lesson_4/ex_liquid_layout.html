@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Liquid Layout</title>
+    <meta charset="UTF-8" />
+    <style>
+      main {
+          min-width: 600px;
+          max-width: 1400px;
+      }
+      #content, #sidebar {
+        padding: 20px 30px;
+      }
+      #content {
+        width: 70%;
+        float: left;
+        box-sizing: border-box;
+      }
+      #sidebar {
+        overflow: hidden;
+      }
+
+      /*@media (max-width: 768px) {
+        #content {
+            width: 50%;
+        }
+      }*/
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt risus sit amet urna fermentum elementum. Nam id varius purus, et commodo velit. Pellentesque rutrum nisl lectus, sed ultricies sem elementum id. Etiam tempus in massa non bibendum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu nisi congue, consectetur nulla nec, tincidunt mi. Nam nisi lorem, eleifend et dolor sed, faucibus fringilla massa. Nam tellus tellus, commodo in eros nec, ultrices tempor orci. Sed dignissim quam vitae molestie volutpat. Nullam non ipsum quis tellus mollis condimentum. Sed ut turpis ac urna vestibulum tincidunt eget non enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam scelerisque erat sit amet suscipit volutpat.</p>
+      </div><!--
+      --><div id="sidebar">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt risus sit amet urna fermentum elementum. Nam id varius purus, et commodo velit. Pellentesque rutrum nisl lectus, sed ultricies sem elementum id. Etiam tempus in massa non bibendum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam eu nisi congue, consectetur nulla nec, tincidunt mi. Nam nisi lorem, eleifend et dolor sed, faucibus fringilla massa. Nam tellus tellus, commodo in eros nec, ultrices tempor orci. Sed dignissim quam vitae molestie volutpat. Nullam non ipsum quis tellus mollis condimentum. Sed ut turpis ac urna vestibulum tincidunt eget non enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam scelerisque erat sit amet suscipit volutpat.</p>
+      </div>
+    </main>
+  </body>
+</html>

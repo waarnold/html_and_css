@@ -1,0 +1,50 @@
+body {
+  padding: 75px 0 50px 0;
+  font: normal 20px Helvetica, Arial, sans-serif;
+  color: #45494d;
+  background: #2f2840 url("file:///Users/Home/Desktop/launch_school/html_and_css/lesson_3/company_splash_page/assets/bg_body.gif");
+}
+
+header, main, footer {
+  min-width: 500px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 75px 0 0 0;
+  text-align: center;
+  background: #ffffff;
+}
+
+h1 {
+  padding: 0 0 50px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #3e98b2;
+}
+
+article {
+  padding: 0 110px 100px 110px;
+}
+
+footer {
+  background-color: #e7e7e7;
+}
+
+footer ul {
+  padding: 30px 0;
+  margin: 0;
+  text-align: center;
+}
+li {
+  display: inline;
+  padding: 0 62px;
+}

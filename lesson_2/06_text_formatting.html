@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Text Formatting</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="assets/lesson_2.css">
+    <style>
+      /* Exercise 1 */
+      body {
+        font: italic normal 16px/140% Helvetica, Arial, sans-serif;
+      }
+      /* Exercise 2 */
+      article {
+        font: normal 14px Helvetica, Arial, sans-serif;
+      }
+      article h1 {
+        font-family: Georgia, serif;
+      }
+      article p {
+        line-height: 150%;
+      }
+      article code {
+        font-style: italic;
+        text-decoration: underline;
+      }
+      /* Exercise 3 */
+      p.unbelievable {
+        font-size: 18px;
+        font-style: normal;
+      }
+      .unbelievable mark {
+        font-family: Courier, monospace;
+        font-size: 12px;
+      }
+      .unbelievable strong {
+        font-size: 15px;
+      }
+      .unbelievable em {
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Exercise 1 -->
+    <p>How much wood would a woodchuck chuck if a woodchuck could chuck wood?</p>
+    <!-- Exercise 2 -->
+    <article>
+      <header>
+        <h1>Finessing `feColorMatrix`</h1>
+      </header>
+      <p>Harness the power of <code>feColorMatrix</code> to create detailed filters, with Una Kravets as your guide.</p>
+    </article>
+    <!-- Exercise 3 -->
+    <p class="unbelievable">
+      That episode was <mark>un<strong>be<em>lieve</em></strong>able</mark>!
+    </p>
+  </body>
+</html>
